@@ -1,0 +1,124 @@
+body{
+   
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.menu{
+    background-color: #1b1c1c;
+    padding: 10px 0;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu ul li{
+    display: inline;
+    margin: 0 20px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+.menu ul li a:hover{
+    background-color: #ffaa64;
+    border-radius: 5px;
+}
+.header{
+    background-color: rgb(126, 121, 121);
+    padding: 5px;
+    text-align: center;
+}
+#Acelogo{
+    position: absolute;
+    top: 65px;
+    left: 20px;
+}
+#Mcalogo{
+    position: absolute;
+    top: 65px;
+    right: 20px;
+}
+#marquee{
+    background-color: rgb(191, 206, 224);
+    padding: 10px;
+    color: red;
+}
+#student{
+    position: relative;
+}
+
+#centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffaa64;
+}
+#announcements{
+    background-color: rgb(203, 180, 150);
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    height: 30%;
+    right: 30%;
+    border-radius: 10px;
+    box-shadow: black;
+}
+#news{
+    background-color: rgb(238, 204, 204);
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    height: 30%;
+    right: 50%;
+    border-radius: 10px;
+    box-shadow: black;
+}
+#events{
+    background-color: rgb(226, 197, 177);
+    margin: 250px auto;
+    padding: 20px;
+    width: 50%;
+    height: 30%;
+    border-radius: 10px;
+    box-shadow: black;
+}
+#video{
+    background-color: rgb(156, 121, 146);
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    height: 10%;
+    border-radius: 10px;
+    box-shadow: black;
+    text-align: center;
+}
+
+#student{
+    filter: brightness(40%);
+}
+#centered{
+    position: absolute;
+    top: 70%;
+    bottom: 50%;
+    text-align: center;
+}
+#last{
+    background-color: #1b1c1c;
+    padding: 15px;
+    font-style: normal;
+    color: #ffaa64;
+    text-align: left;
+
+}
+#Name{
+    position: absolute;
+  left: 80%;
+  bottom: -231%;
+    text-align: center;
+}
